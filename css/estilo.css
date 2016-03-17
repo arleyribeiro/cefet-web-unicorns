@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+#cabecalho{
+	background-color: #6175f0;
+}
+
+#uni {
+	margin: 0;
+	margin-left: 34px;
+	padding-top: 20px;
+	font-family: "Kaushan Script";
+	color: #ffffff;
+	font-size: 36px;
+}
+
+#des {
+	margin: 0;
+	margin-left: 34px;
+	padding-bottom: 13px;
+	font-size: 24px;
+	font-family: "Times New Roman";
+	color: #ffffff;
+}
+
+#verdade img {
+	width: 310px;
+	float: left;
+	padding-right: 13px;
+}
+
+h2 {
+	margin:0;
+	font-family: "Times New Roman";
+	color: #000000;
+	font-size: 24px;
+}
+
+#verdade p {
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+#verdade .referencia {
+    font-style: italic;
+}
+
+#hoje {
+	border: 1px solid #ff56fb;
+	background-color: #f8cef7;
+	padding: 20px 35px 30px 35px;
+	margin-right: 25px;
+	float: right;
+	box-sizing: border-box;
+	width:  405px;
+	text-align: center;
+}
+
+#hoje img {
+	width: 112px;
+	height: 112px;
+}
+
+#hoje h3 {
+	font-size: 18px;
+	font-family: "Times New Roman";
+}
+
+#musica {
+	padding-top: 30px;
+	font-size: 14px;
+}
+
+#musica h2 {
+	padding-left: 12px;
+}
+
+#musica > p {	
+	padding-left: 12px;
+}
+
+#musica p:nth-child(2n+1)  {
+	margin-left: 34px;
+}
+
+#musica .destacado > p{
+    padding-left: 12px;
+}
+
+#musica .destacado p:nth-child(2n){
+    margin-left: 34px;
+}
+
+/*Rercurso Tecnico :)*/
+#musica .destacado p:nth-child(2n+1){
+    margin-left: 0px;
+}
+
+#musica .destacado {
+    color: #004a79;
+	background-color: #c4caf3;
+	width: 100%;
+
+}
